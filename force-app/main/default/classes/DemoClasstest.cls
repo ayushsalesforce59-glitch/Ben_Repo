@@ -1,6 +1,6 @@
 public with sharing class DemoClasstest {
     public static void getaccountdemo(){
-        list<Account>aclist=[select id From Account limit 3]; 
+        list<Account>aclist=[select id From Account limit 4]; 
 
     }
 }
